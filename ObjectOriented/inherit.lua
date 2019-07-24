@@ -31,4 +31,6 @@ end
 
 s = SpecialAccount:new{limit = 1000.00}
 s:deposit(100.00)
+print(s.balance)
 s:withdrawal(200.00)
+print(s.balance)
